@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+div {
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+.navigation_bar {
+    height: 116px;
+    width: 1440px;
+    display: flex;
+}
+
+.navigation_bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 18px;
+    margin-top: 39px;
+    margin-left: 80px;
+    color: #231F20;
+    margin-right: 350px;
+}
+
+.link {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 22px 0 0 50px;
+}
+
+.link_pad {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 22px 0 0 50px;
+    padding-right: 290px;
+}
+
+.link_dap {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 18px;
+    margin: auto;
+    border: 1px #F7941E solid;
+    border-radius: 5%;
+    color: #F7941E;
+    padding: 10px 20px 10px 20px;
+}
+
+.podblock1 {
+    width: 1440px;
+    height: 700px;
+    display: flex;
+}
+
+.blockleftparent {
+    width: 50%;
+    height: 700px;
+    background-color: #F1F1F2;
+}
+
+.blockleftson {
+    font-size: 56px;
+    margin-top: 154px;
+    margin-left: 162px;
+    margin-bottom: 135px;
+    margin-right: 126px;
+    height: 411px;
+    width: 433px;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+}
+
+.blockleftson :first-child {
+    font-size: 18px;
+    margin-top: 36px;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    width: 422px;
+    height: 57px;
+}
+
+.blockleftson :last-child {
+    border: solid;
+    width: 200px;
+    height: 60px;
+    margin-top: 52px;
+    padding-top: 40px;
+    padding-left: 80px;
+    font-size: 18px;
+    background-color: #F7941E;
+    color: white;
+    border-radius: 5%;
+}
+
+.blockright {
+    width: 50%;
+    height: 695px;
+}
+
+.podblock2 {
+    width: 1440px;
+    height: 600px;
+    display: flex;
+}
+
+.podblock2left {
+    width: 50%;
+    height: 695px;
+}
+
+.podblock2rightparent {
+    width: 50%;
+    height: 600px;
+    background-color: #F1F1F2;
+}
+
+.podblock2rightson {
+    width: 441px;
+    height: 332px;
+    margin-top: 164px;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 32px;
+}
+
+.podblock2rightson p {
+    font-size: 20px;
+    width: 441px;
+    height: 169px;
+    margin-top: 23px;
+}
+
+.ppp {
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    border: solid orange 1px;
+    margin-right: 241px;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 14px;
+    border-radius: 5%;
+}
+
+.ppp a {
+    color: orange;
+    text-decoration: none;
+}
+
+.podblock3 {
+    width: 1440px;
+    height: 820px;
+}
+
+.podblock3text {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 96px;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+}
+
+.podblock3text p {
+    font-size: 18px;
+}
+
+.podblock3images {
+    margin-top: 64px;
+    display: flex;
+}
+
+
+
+.podblock3images1 {
+    margin-left: 135px;
+    width: 270px;
+    height: 270px;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 20px;
+    background-color: gray;
+    filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+}
+
+.text1underimages1{
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 20px;;
+    background-color: #FAFAFA;
+    height: 166px;
+    padding: 24px 24px 118px 24px;
+}
+.text2underimages1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 74px;
+}
+
+.podblock3images2 {
+    width: 270px;
+    height: 270px;
+}
+
+.text1underimages2 {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 20px;
+    background-color: #FAFAFA;
+    height: 166px;
+    padding: 24px 24px 118px 24px;
+}
+
+.text2underimages2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 74px;
+}
+
+.podblock3images3 {
+    width: 270px;
+    height: 270px;
+}
+
+.text1underimages3 {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 20px;
+    background-color: #FAFAFA;
+    height: 166px;
+    padding: 24px 24px 118px 24px;
+}
+
+.text2underimages3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 74px;
+}
+
+
+.podblock3images4 {
+    margin-right: 135px;
+    width: 270px;
+    height: 270px;
+}
+
+.text1underimages4 {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 20px;
+    background-color: #FAFAFA;
+    height: 166px;
+    padding: 24px 24px 118px 24px;
+}
+
+.text2underimages4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 74px;
+}
+
+.podblock4 {
+    width: 1440px;
+    height: 240px;
+    background-color: #F7941E;
+    display: ;
+}
+
+.textleft {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 30px;
+    padding-left: 235px;
+    padding-top: 100px;
+}
+
+.signupor {
+    font-size: 28px;
+}
+
+.findgift {
+    font-size: 18px;
+    width: 151px;
+    height: 22px;
+}
+
+.podblock5 {
+    width: 1440px;
+    height: 1026px;
+    border: solid;
+}
+
+.podblock5text1 {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 32px;
+    text-align: center;
+    margin-top: 88px;
+}
+
+.podblock5text2 {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 18px;
+    margin-left: 467px;
+    margin-top: 23px;
+}
+
+.podblock5imageandtext {
+    margin-top: 71px;
+    width: 1170px;
+    height: 370px;
+    background-color: #231F20;
+    display: flex;
+}
+
+.podblock5imageandtext :first-child {
+    width: 400px;
+    height: 370px;
+}
+
+
+.podblock5text {
+    padding-right: 608px;
+    padding-top: 63px;
+    padding-left: 78px;
+    color: #FFFFFF;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 14px;
+}
+
+.podblock5text :first-child {
+    font-size: 48px;
+    margin-top: 27px;
+    height: 150px;
+} 
+
+.podblock5text :last-child {
+    font-size: 18px;
+    margin-top: 600px;
+}
+
+.podblock5texts {
+    width: 1170px;
+    height: 290px;
+    border: solid;
+    display: flex;
+}
+
+.podblock5lefttext {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    margin-left: 48px;
+}
+
+.podblock5undertext {
+    display: flex;
+}
+
+.leftundertext5podblock {
+    width: 570px;
+    height: 290px;
+    margin-top: 40px;
+    margin-left: 135px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.datebase {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 24px;
+    margin-top: 48px;
+    width: 474px;
+    height: 68px;
+}
+
+.datebase :first-child {
+    font-size: 18px;
+    margin-top: 16px;
+    margin-right: 48px;
+    width: 474px;
+    height: 72px;
+}
+
+.datebase :last-child {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 14px;
+}
+
+.rightundertext5podblock {
+    width: 570px;
+    height: 290px;
+    margin-top: 20px;
+    margin-right: 135px;
+}
+
+.howartificial {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 24px;
+    margin-top: 48px;
+    width: 474px;
+    height: 68px;
+}
+
+.howartificial :first-child {
+    font-size: 18px;
+    margin-top: 29px;
+    margin-right: 48px;
+    width: 474px;
+    height: 72px;
+}
+
+.howartificial :last-child {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 14px;
+}
+
+.podblock6 {
+    width: 1440px;
+    height: 410px;
+    border: solid;
+}
+
+
+.podblock6home {
+    width: 159px;
+    height: 20px; 
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 115px;
+    margin-left: 406px;
+}
+
+.about {
+    margin-top: 0px;
+}
+
+.podblock6service {
+    display: flex;
+    width: 132px;
+    height: 20px;
+    justify-content: space-between;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 14px;
+    margin-left: 888px;
+    margin-right: 0px;
+    margin-top: -20px;
+}
+
+.blog {
+    margin-top: 0px;
+}
+
+.logo2 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 18px;
+    margin-top: -25px;
+    margin-left: 706px;
+    color:  #F7941E;
+    margin-right: 350px;
+    height: 39px;
+    width: 41px;
+}
+
+.hr {
+    width: 1000px;
+    height: 0px;
+    margin-top: 43px;
+    color: #000000;
+}
+
+.podblock6icons {
+    width: 320px;
+    height: 40px;
+    margin-top: 55px;
+}
+
+.facebook {
+    width: 38.4px;
+    height: 38.4px;
+}
+
+.twitter {
+    margin-left: 25.6px;
+    width: 38.4px;
+    height: 38.4px;
+}
+
+.youtube {
+    margin-left: 25.6px;
+    width: 38.4px;
+    height: 38.4px;
+}
+
+.instagram {
+    margin-left: 25.6px;
+    width: 38.4px;
+    height: 38.4px;
+}
+
+.pic {
+    margin-left: 25.6px;
+    width: 38.4px;
+    height: 38.4px;
+}
+
+.dates {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 14px;
+    width: 94px;
+    height: 20px;
+    margin-top: 72.8px;
+    margin-left: 618px;
+    margin-right: 0px;
+}
+
+.privacy {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 14px;
+    width: 120px;
+    height: 20px;
+    margin-left: 726px;
+    margin-top: -20px;
+}
